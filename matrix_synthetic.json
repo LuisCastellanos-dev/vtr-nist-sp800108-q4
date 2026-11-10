@@ -1,0 +1,30 @@
+{
+  "schema": "VTR-SP108-Q4-MATRIX-v0.1-synthetic",
+  "disclaimer": "EXCLUSIVELY FICTIONAL CASES. No official construction status, CMVP validation or deployment authorization asserted.",
+  "rows": [
+    {
+      "id": "SYN-01", "protocol": "TLS1.2", "kdf_claim": "NOT_EVIDENCED",
+      "implementation_evidence": "RFC5246_SEC5_ONLY", "normative_status": "NOT_DETERMINED",
+      "normative_source": "NOT_EVIDENCED", "cmvp_claim": "NOT_EVIDENCED",
+      "module_certificate": "NOT_EVIDENCED", "operational_environment": "NOT_EVIDENCED",
+      "deployment_decision": "PENDING_OFFICIAL_APPLICABILITY_REVIEW", "decision_source": "NOT_EVIDENCED",
+      "action": "Identify actual module and KDF separately from TLS support", "vtr_state": "INFERENCIA"
+    },
+    {
+      "id": "SYN-02", "protocol": "CUSTOM_APPLICATION", "kdf_claim": "EXPLICITLY_IDENTIFIED_IN_FIXTURE",
+      "implementation_evidence": "probe.py::sp800108_dp_hmac_sha256", "normative_status": "NOT_DETERMINED",
+      "normative_source": "NOT_EVIDENCED", "cmvp_claim": "NOT_EVIDENCED",
+      "module_certificate": "NOT_EVIDENCED", "operational_environment": "SYNTHETIC_PYTHON_LAB",
+      "deployment_decision": "PENDING_OFFICIAL_APPLICABILITY_REVIEW", "decision_source": "NOT_EVIDENCED",
+      "action": "Separate technical implementation evidence from FIPS status", "vtr_state": "HECHO"
+    },
+    {
+      "id": "SYN-03", "protocol": "INDUSTRIAL_INTERFACE_SIMULATION", "kdf_claim": "NOT_EVIDENCED",
+      "implementation_evidence": "NOT_EVIDENCED", "normative_status": "NOT_DETERMINED",
+      "normative_source": "NOT_EVIDENCED", "cmvp_claim": "NOT_EVIDENCED",
+      "module_certificate": "NOT_EVIDENCED", "operational_environment": "UNKNOWN_LEGACY_DEVICE",
+      "deployment_decision": "PENDING_OFFICIAL_APPLICABILITY_REVIEW", "decision_source": "NOT_EVIDENCED",
+      "action": "Inventory service, vendor, certificate, actual configuration, safety and maintenance constraints", "vtr_state": "PROYECCION"
+    }
+  ]
+}

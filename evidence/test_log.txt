@@ -1,0 +1,20 @@
+test_01_hmac_rfc4231_vector1 (__main__.TestVTRQ4.test_01_hmac_rfc4231_vector1) ... ok
+test_02_repeatable_dp (__main__.TestVTRQ4.test_02_repeatable_dp) ... ok
+test_03_tls_vs_dp_distinct_on_fixture (__main__.TestVTRQ4.test_03_tls_vs_dp_distinct_on_fixture) ... ok
+test_04_dp_counter_variant_changes_output (__main__.TestVTRQ4.test_04_dp_counter_variant_changes_output) ... ok
+test_05_context_changes_dp (__main__.TestVTRQ4.test_05_context_changes_dp) ... ok
+test_06_ctr_vs_dp_distinct (__main__.TestVTRQ4.test_06_ctr_vs_dp_distinct) ... ok
+test_07_matrix_synthetic_valid (__main__.TestVTRQ4.test_07_matrix_synthetic_valid) ... ok
+test_08_reject_tls_only_implies_sp_dp (__main__.TestVTRQ4.test_08_reject_tls_only_implies_sp_dp) ... ok
+test_09_reject_unsubstantiated_official_approval (__main__.TestVTRQ4.test_09_reject_unsubstantiated_official_approval) ... ok
+test_10_reject_fake_cmvp_certificate (__main__.TestVTRQ4.test_10_reject_fake_cmvp_certificate) ... ok
+test_11_reject_premature_deployment_decision (__main__.TestVTRQ4.test_11_reject_premature_deployment_decision) ... ok
+test_12_reject_missing_implementation_evidence (__main__.TestVTRQ4.test_12_reject_missing_implementation_evidence) ... ok
+test_13_reject_duplicate_ids (__main__.TestVTRQ4.test_13_reject_duplicate_ids) ... ok
+test_14_input_length_constraints (__main__.TestVTRQ4.test_14_input_length_constraints) ... ok
+test_15_probe_observations (__main__.TestVTRQ4.test_15_probe_observations) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.001s
+
+OK

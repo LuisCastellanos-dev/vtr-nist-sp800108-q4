@@ -1,0 +1,34 @@
+{
+  "inputs": {
+    "context": "asset-A",
+    "counter_bits": 32,
+    "key_sha256": "4773d12e2371bb935b9a0f5439b4a1c3ad3f2414b86980f8418d1cfabdfadfef",
+    "label": "VTR-LAB",
+    "length_bytes": 64
+  },
+  "key_type": "public fixed test input, not production secret",
+  "limits": [
+    "distinct outputs do not establish protocol dependency or independence",
+    "no cryptographic security claim, formal proof, production inference, or FIPS validation"
+  ],
+  "matrix_validation": {
+    "issues": [],
+    "pass": true,
+    "rows_checked": 3
+  },
+  "observations": {
+    "context_change_changes_dp_output": true,
+    "ctr_differs_from_dp_on_defined_inputs": true,
+    "dp_counter_option_changes_bytes": true,
+    "dp_differs_from_tls_prf_on_defined_inputs": true
+  },
+  "outputs": {
+    "sp800108_counter_hmac": "d75fa9cc02b2b7238a61165255a8712feec31d240fa04cf2e6268bbb17815df789fdac639753ccb15fdb50e259cbba0b88f5e54df400bb91f94c90e7894da11b",
+    "sp800108_dp_hmac_changed_context": "6dc6782fefefed11c540ae5be037bc32fd6dc57ef243bcb86a26ef6683df95a38f4754f105c1fc824f6cbdd46d254c069a9560562c10f91d888c9cb932a804dd",
+    "sp800108_dp_hmac_ctr32": "99b20e50e9b7e6bd8b1a8263a9a4a1c1db2a9900c7be85af1ac52f340127215ef2d3a848855a59c84a9def0b45652dde25c3c1fb7c98f14edfb3aad27d5c7305",
+    "sp800108_dp_hmac_no_counter": "eaa070d2aa4dda80a28bb801da411772f203457277035948f542ff83bd41f02ccf16859897272bc9760f1acb2582f66265c2e1d2437b809147e077ec66b57558",
+    "tls12_prf_sha256": "56b8fd95b54d65bc81c42900857a7dc5ea5980a1a74d4fa52882ffa5329d4a7cedf61fd3890d5d7d62c4c226057d99686f8c57044ca67c8e6a65f80925de618c"
+  },
+  "scope": "synthetic, byte-aligned, HMAC-SHA256; algorithm demonstration, not NIST validation",
+  "script_sha256": "81fe4818cadce65cbb43b9945d6a933f3a7d1aea1d20a79b05bfbf3d06e55237"
+}
